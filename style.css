@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+.lamps {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+#switch {
+  margin-top: 1rem;
+}
+.lamp {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: gray;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+.active {
+  background: yellow;
+  box-shadow: 0 0 40px gold;
+}
